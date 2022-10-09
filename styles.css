@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
 * {
     padding: 0;
     margin: 0;
@@ -6,7 +7,7 @@
 html, body #fullheight {
     min-height: 100% !important;
     height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
     background-color: black;
 }
 
@@ -20,13 +21,15 @@ html, body #fullheight {
     justify-content: flex-end;
     align-items: flex-end;
     color: white;
-    height: 39%;
+    min-height: 39%;
+    margin-top: 20%;
 }
 
 .result span {
     margin-right: 60px;
-    font-size: 150px;
+    font-size: 210px;
     justify-self: flex-end;
+    text-size-adjust: auto;
 }
 
 .buttons {
@@ -39,6 +42,7 @@ html, body #fullheight {
 
 .item {
     display: flex;
+    font-family: "Poppins", sans-serif;
     justify-content: center;
     align-items: center;
     font-size: 100px;
@@ -70,11 +74,18 @@ html, body #fullheight {
     color: white;
 }
 
+.item3:focus {
+    background-color: white;
+    color: rgb(247, 158, 25);
+    transition: all .25s ease-in;
+}
+
 .numbers, .decimal {
     background-color: rgb(60, 61, 61);
     border: none;
     color: white;
 }
+
 
 .itemZero {
     background color: rgb(60,61,61);
