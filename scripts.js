@@ -60,7 +60,7 @@ function getSign() {
 getSign();
 
 // performs the math after equals is clicked and prints the result into the results div section
-// TODO when pressing negative on the solved result, pressing equals turns it to the opposite sign
+
 equals.addEventListener("click", () => {
     result.innerHTML = "";
     if(sign === "+") {
